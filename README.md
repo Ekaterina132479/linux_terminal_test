@@ -1,1 +1,1 @@
-# linux_terminal_test
+# linux_terminal_инит

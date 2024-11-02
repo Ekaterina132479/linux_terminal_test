@@ -1,0 +1,88 @@
+    1  pwd
+    2  ls
+    3  cd ./
+    4  cd //
+    5  pwd
+    6  cd /~
+    7  cd ~
+    8  mkdir sandboxk
+    9  ls
+   10  cd sandboxk/
+   11  nano text.txt
+   12  cat text.txt 
+   13  cp text.txt copy_text.txt
+   14  ls
+   15  mv copy_text.txt renamed_text.txt
+   16  ls
+   17  cd ../
+   18  mkdir sandbox_new
+   19  mv ./sandboxk/renamed_text.txt ./sandbox_new/
+   20  ls ./sandbox_new/
+   21  cd ./sandboxk/
+   22  wget "https://github.com/arybin93/sandbox/raw/master/application_1674570331837_972184.zip"
+   23  ls
+   24  cat -h
+   25  cat --h
+   26  ls
+   27  unzip application_1674570331837_972184.zip 
+   28  ls
+   29  cat --help
+   30  head application_1674570331837_972184.log 
+   31  tail -f application_1674570331837_972184.log 
+   32  pwd
+   33  grep -i "error" application_1674570331837_972184.log 
+   34  wc application_1674570331837_972184.log 
+   35  du -hs application_1674570331837_972184.log 
+   36  zip application_1674570331837_972184.log zipped_log
+   37  zip -h
+   38  zip zipped-log application_1674570331837_972184.log 
+   39  du -hs zipped-log.zip 
+   40  du
+   41  cd ./~
+   42  cd ../~
+   43  du ~
+   44  pwd
+   45  cd ..../
+   46  cd ../
+   47  du
+   48  pwd
+   49  du /
+   50  df -h
+   51  cd ./home/
+   52  cd kate/sandboxk
+   53  du -h
+   54  cd /
+   55  du -h
+   56  cd ./home/kate/sandboxk/
+   57  df -h
+   58  cat df -h disk_info.txt
+   59  cat "df -h" disk_info.txt
+   60  df-h > log_disk_info.txt
+   61  df -h
+   62  df -h > log_disk_info.txt
+   63  mkdir new_directory
+   64  cd new_directory/
+   65  git init
+   66  mv ../log_disk_info.txt ./
+   67  ls
+   68  git add log_disk_info.txt 
+   69  git commit -m "Я добавила файл log_disk_info.txt"
+   70  git config --global user.email "ekaterina@test.com"
+   71  git config --global user.name "Ekaterina Gileva"
+   72  git commit -m "Я добавила файл log_disk_info.txt"
+   73  git log
+   74  git branch new_test_branch
+   75  git checkout new_test_branch
+   76  nano log_disk_info.txt 
+   77  git add log_disk_info.txt 
+   78  git commit -m "Обновления в файле"
+   79  git checkout main
+   80  git merge new_test_branch
+   81  history
+   82  cd ../
+   83  rm -rf ./sandbox
+   84  rm -rf ./sandboxk
+   85  rm -rf ./sandbox_new/
+   86  gio trash --list
+   87  ls
+   88  history > history.txt
